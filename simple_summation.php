@@ -7,4 +7,5 @@ while(true){
 
 	echo "Hasil tambah nilai tersebut ialah ";
 	echo $angka1+$angka2."\n";
+	echo "hacktoberfest";
 }
