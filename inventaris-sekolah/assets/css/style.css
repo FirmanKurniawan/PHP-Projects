@@ -1,0 +1,285 @@
+body{
+	font-family: 'Roboto'
+}
+
+a{
+	text-decoration: none !important;
+}
+
+nav{
+	background-color: #49A8E7;
+	padding: 0px !important;
+}
+
+.navbar-brand{
+	padding: 15px;
+	background-color: #152337;
+	width: 275px;
+	text-align: center;
+	color: white !important;
+	font-weight: bold;
+	margin: 0px;
+}
+
+.navbar{
+	margin: 0px;
+}
+
+.sidebar{
+	float: left;
+}
+
+.sidebar-content{
+	padding: 20px;
+}
+
+.foto-profil-default{
+	padding: 25px 25px 0px 25px;
+}
+
+.foto-profil{
+	background-color: #E5E5E5;
+	border-radius: 15px;
+	height: 250px;
+}
+
+.foto-profil img{
+	width: 235px;
+	height: 100%;
+}
+
+.fp-container{
+	background-color: #E0DFDF;
+	height: 360px;
+	border-radius: 15px 15px 8px 8px;
+}
+
+.menu{
+	background-color: white;
+	border-radius: 8px;
+	margin-top: 25px;
+	padding-bottom: 13px;
+}
+
+.menu-title{
+	background-color: #49A8E6;
+	padding: 10px;
+	border-radius: 8px 8px 0px 0px;
+	padding-left: 13px;
+}
+
+.content-container{
+	padding: 20px 20px 0px 0px;
+}
+
+.content{
+	background-color: white;
+	padding: 20px;
+	display: flex;
+	border-radius: 0px 0px 8px 8px;
+}
+
+.isi{
+	width: 100%;
+}
+
+.menu-content{
+	display: block;
+	background-color: white;
+	margin-left: 13px;
+}
+
+.navbar-collapse{
+	padding: 10px;
+}
+
+.navbar-nav li a{
+	color: black;
+}
+
+.navbar-nav li a:hover{
+	color: #152337;
+}
+
+
+.dropdown-menu.show{
+	margin-right: 13px !important;
+}
+
+.dropdown-item.active, .dropdown-item:active{
+	background-color: #49A8E6 !important;
+	color: white !important;
+}
+
+.breadcrumb{
+	background-color: #07619C;
+	border-radius: 8px 8px 0px 0px;
+	margin: 0px;
+}
+
+.breadcrumb li a{
+	color: white;
+}
+
+.breadcrumb li{
+	color: white !important;
+	font-size: 14px;
+}
+
+footer{
+	margin-top: 50px;
+	background-color: #152337;
+	padding: 15px;
+	height: 55px;
+	clear: both;
+}
+
+.table thead th{
+	vertical-align: middle !important;
+}
+
+/*--------------------------------------------
+
+		LOGIN
+
+--------------------------------------------*/
+.bg-login{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/* Tombol Login Home */
+.login{
+	background: #3E58E7;
+	font-weight: bold;
+	font-size: 14px;
+	color: #141A37;
+	transition: 0.5s;
+	margin-top: 4px;
+	margin-left: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.login:hover{
+	background: #697DE7;
+	transition: 0.5s;
+}
+
+#login2{
+	color: white;
+}
+
+/* Pages Login */
+.login-konten{
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 635px;
+	background-position: bottom;
+	padding-top: 110px;
+}
+
+.form-login{
+	background: white;
+	width: 350px;
+	top: 20px;
+	padding: 15px;
+	border-bottom: 5px #3E58E7 solid;
+	border-top: 4px #697DE7 solid;
+}
+
+.btn-login{
+	background: #3E58E7;
+	font-weight: bold;
+	color: #141A37;
+	transition: 0.5s;
+	margin-top: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.btn-login:hover{
+	background: #697DE7;
+	transition: 0.5s;
+}
+
+.login-input:focus{
+	box-shadow: 0 0 0 0.2rem rgba(98,120,240,.25);
+	border-color: #90A0F9;
+}
+
+/*----------------------------------------------------*/
+
+.card-info .title{
+	background-color: #65C0FC;
+}
+
+.card-info .title p{
+	margin: 0px;
+	color: white;
+	padding: 5px;
+	padding-left: 15px;
+}
+
+.card-info .body{
+	background-color: #81CBFC;
+	padding: 15px;
+}
+
+.asetkantor-icon{
+	fill: white;
+	opacity: 0.6;
+}
+
+.asetkelas-icon{
+	fill: blue;
+	opacity: 0.4;
+}
+
+.asetaula-icon{
+	fill: green;
+	opacity: 0.4;
+}
+
+.asetlab-icon{
+	fill: red;
+	opacity: 0.4;
+}
+
+.card-info .body .row .col h1{
+	color: white;
+	font-size: 50px;
+	transition: 0.3s;
+}
+
+.card-info .body .row .col h1:hover{
+	font-size: 55px;
+}
+
+.card-info .body .btn-lihat{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.card-info .body .btn-lihat a{
+	width: 75px;
+	transition: 0.5s;
+}
+
+.card-info .body .btn-lihat a:hover{
+	width: 75px;
+	margin-right: 7px;
+}
+
+.note .button{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.last-data{
+	background-color: #81CBFC;
+	padding: 5px;
+	margin-bottom: 100px;
+	font-weight: bold;
+}
