@@ -1,0 +1,81 @@
+a{
+    text-decoration: none;
+    color: #444;
+    font-size: .9em;
+}
+
+a.link{
+    margin: 0 10px;
+}
+
+a.link:hover{
+    text-decoration: underline;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form.form-login{
+    width: 300px;
+    height: auto;
+    padding: 20px;
+}
+
+h1.title{
+    font-size: 2.4em;
+    margin: 15px 0;
+}
+
+label{
+    font-weight: bold;
+    font-size: .86em;
+    color: #777;
+    font-weight: 100;
+}
+
+.inputs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.inputs i{
+    color: #777;
+}
+
+input.form-control{
+    height: 36px;
+    padding: 0 30px;
+    outline: none;
+    border-radius: 3px;
+    border: 1.5px solid #ccc;
+    color: #444;
+    box-shadow: inset 0 4px 3px -4px #c0c0c0;
+}
+
+.input-group + .input-group{
+    margin-top: 5px;
+}
+
+.inputs i{
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    bottom: 0;
+}
+
+textarea{
+    outline: none;
+    border: 1.5px solid #dadada;
+    color: #444;
+    box-shadow: inset 0 4px 3px -4px #ccc;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: .9em;
+}

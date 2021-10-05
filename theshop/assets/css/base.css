@@ -1,0 +1,222 @@
+/* menginclude font roboto dan raleway */
+@font-face{
+    src: url('../fonts/Raleway/Raleway-Regular.ttf');
+    font-family: "Raleway Regular";
+}
+
+@font-face{
+    src: url('../fonts/Raleway/Raleway-Medium.ttf');
+    font-family: "Raleway Medium";
+}
+
+@font-face{
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+    font-family: "Roboto Regular";
+}
+
+@font-face{
+    src: url('../fonts/Roboto/Roboto-Medium.ttf');
+    font-family: "Roboto Medium";
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: "Roboto Regular", sans-serif;
+}
+
+.container{
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* text formatting */
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+/* color */
+.lightgrey{
+    background: #EEEEEE;
+}
+
+.primary{
+    background: #1E88E5;
+}
+
+.secondary{
+    background: #00C853;
+}
+
+.info{
+    background: #00B8D4;
+}
+
+.warning{
+    background: #FF9100;
+}
+
+.danger{
+    background: #D50000;
+}
+
+/* text-color */
+.text-white{
+    color: #fff;
+}
+.text-lightgrey{
+    color: #EEEEEE;
+}
+
+.text-primary{
+    color: #1E88E5;
+}
+
+.text-secondary{
+    color: #00C853;
+}
+
+.text-info{
+    color: #00B8D4;
+}
+
+.text-warning{
+    color: #FF9100;
+}
+
+.text-danger{
+    color: #D50000;
+}
+
+h1.title{
+    /* color: #444; */
+    /* font-family: 'Raleway Regular', sans-serif; */
+    font-weight: 300;
+}
+
+.btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background .3s;
+    /* font-size: .85em; */
+}
+
+a.btn{
+    font-size: .85em;
+    padding: 9.5px 20px;
+}
+
+.btn.primary:hover{
+    background: #1565C0;
+}
+
+.btn.secondary:hover{
+    background: #00a845;
+}
+
+.btn.info:hover{
+    background: #00B8D4;
+}
+
+.btn.warning:hover{
+    background: #EF6C00;
+}
+
+.btn.danger:hover{
+    background: #B71C1C;
+}
+
+.container-fluid{
+    width: 100%;
+    padding: 0 15px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.row.no-wrap{
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.with-margin{
+    margin: 0 2px 0 2px;
+}
+
+
+.row + .row{
+    margin-top: 15px;
+}
+
+.col-1{flex:none;width:calc(100%/12*1)}
+.col-2{flex:none;width:calc(100%/12*2)}
+.col-3{flex:none;width:calc(100%/12*3)}
+.col-4{flex:none;width:calc(100%/12*4)}
+.col-5{flex:none;width:calc(100%/12*5)}
+.col-6{flex:none;width:calc(100%/12*6)}
+.col-7{flex:none;width:calc(100%/12*7)}
+.col-8{flex:none;width:calc(100%/12*8)}
+.col-9{flex:none;width:calc(100%/12*9)}
+.col-10{flex:none;width:calc(100%/12*10)}
+.col-11{flex:none;width:calc(100%/12*11)}
+.col-12{flex:none;width:calc(100%/12*12)}
+
+@media screen and (min-width: 576px){
+    .container{
+        width: 500px;
+    }
+
+    .col-md-1{flex:none;width:calc(100%/12*1)}
+    .col-md-2{flex:none;width:calc(100%/12*2)}
+    .col-md-3{flex:none;width:calc(100%/12*3)}
+    .col-md-4{flex:none;width:calc(100%/12*4)}
+    .col-md-5{flex:none;width:calc(100%/12*5)}
+    .col-md-6{flex:none;width:calc(100%/12*6)}
+    .col-md-7{flex:none;width:calc(100%/12*7)}
+    .col-md-8{flex:none;width:calc(100%/12*8)}
+    .col-md-9{flex:none;width:calc(100%/12*9)}
+    .col-md-10{flex:none;width:calc(100%/12*10)}
+    .col-md-11{flex:none;width:calc(100%/12*11)}
+    .col-md-12{flex:none;width:calc(100%/12*12)}
+}
+
+@media screen and (min-width: 1024px){
+    .container{
+        width: 85%;
+    }
+
+    .container-fluid{
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    .col-lg-1{flex:none;width:calc(100%/12*1)}
+    .col-lg-2{flex:none;width:calc(100%/12*2)}
+    .col-lg-3{flex:none;width:calc(100%/12*3)}
+    .col-lg-4{flex:none;width:calc(100%/12*4)}
+    .col-lg-5{flex:none;width:calc(100%/12*5)}
+    .col-lg-6{flex:none;width:calc(100%/12*6)}
+    .col-lg-7{flex:none;width:calc(100%/12*7)}
+    .col-lg-8{flex:none;width:calc(100%/12*8)}
+    .col-lg-9{flex:none;width:calc(100%/12*9)}
+    .col-lg-10{flex:none;width:calc(100%/12*10)}
+    .col-lg-11{flex:none;width:calc(100%/12*11)}
+    .col-lg-12{flex:none;width:calc(100%/12*12)}
+}
