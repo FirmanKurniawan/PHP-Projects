@@ -11,3 +11,4 @@ Please make sure to update tests as appropriate.
 
 #Hacktoberfest-indonesia-2021
 hacktober.cuy
+Hacktoberfest - together we are strong
