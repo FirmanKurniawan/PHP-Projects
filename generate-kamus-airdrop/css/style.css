@@ -1,0 +1,22 @@
+@import '../css/lib/open-color/open-color.css';
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+body {
+  background-color: var(--oc-blue-8);
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+a,a:hover {
+  color: #fff;
+  text-decoration: none;  
+}
+a:hover{
+  text-decoration: underline;  
+}
+
+.btn-primary {
+  background-color: var(--oc-blue-7);
+}
+.btn-primary:hover{
+  background-color: var(--oc-blue-8);
+}
