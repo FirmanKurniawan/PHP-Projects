@@ -7,3 +7,6 @@
 echo "Halo dunia!";
 echo "Hacktoberfest-indonesia-2021";
 echo "Freedom13";
+echo "Herlin13";
+echo "Hacktoberfest-indonesia";
+echo "Hacktober-2021";
