@@ -29,10 +29,10 @@
                     <div class="col-xs-6 col-xs-offset-3">
                         <div class="panel panel-primary">
                             <div class="panel-heading">
-                                <h3>LOGIN</h3>
+                                <h3>Masuk</h3>
                             </div>
                             <div class="panel-body">
-                                <p>Login to make a purchase.</p>
+                                <p>Masuk untuk membeli</p>
                                 <form method="post" action="login_submit.php">
                                     <div class="form-group">
                                         <input type="email" class="form-control" name="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
@@ -45,7 +45,7 @@
                                     </div>
                                 </form>
                             </div>
-                            <div class="panel-footer">Don't have an account yet? <a href="signup.php">Register</a></div>
+                            <div class="panel-footer">Belum punya akun? <a href="signup.php">Daftar</a></div>
                         </div>
                     </div>
                 </div>
