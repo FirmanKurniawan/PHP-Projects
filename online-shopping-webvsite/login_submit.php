@@ -4,14 +4,14 @@
     $email=mysqli_real_escape_string($con,$_POST['email']);
     $regex_email="/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[_a-z0-9-]+)*(\.[a-z]{2,3})$/";
     if(!preg_match($regex_email,$email)){
-        echo "Incorrect email. Redirecting you back to login page...";
+        echo "Email Salah.. ";
         ?>
         <meta http-equiv="refresh" content="2;url=login.php" />
         <?php
     }
     $password=md5(md5(mysqli_real_escape_string($con,$_POST['password'])));
     if(strlen($password)<6){
-        echo "Password should have atleast 6 characters. Redirecting you back to login page...";
+        echo "Kata sandi setidaknya memiliki 6 karakter";
         ?>
         <meta http-equiv="refresh" content="2;url=login.php" />
         <?php
@@ -24,7 +24,7 @@
         //redirecting to same login page
         ?>
         <script>
-            window.alert("Wrong username or password");
+            window.alert("Nama Pengguna atau Kata Sandi salah");
         </script>
         <meta http-equiv="refresh" content="1;url=login.php" />
         <?php
