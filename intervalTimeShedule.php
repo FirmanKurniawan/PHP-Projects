@@ -3,7 +3,7 @@
 class Schedule{
 
     // For Schedule time
-public function setIntervalTime($start, $end, $intervelMinutes)
+public function setIntervalTime($start, $end, $intervalMinutes)
 {
     $time = [$start];
 
