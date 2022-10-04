@@ -1,0 +1,11 @@
+body {
+	font-family: 'Muli', sans-serif;
+}
+
+.text-title {
+	font-family: 'Sniglet', cursive;
+}
+
+.form-inline .custom-select, .form-inline .input-group {
+	width: 500px
+}
