@@ -7,6 +7,15 @@
 	<title>Covid19 Report</title>
 
 	<style type="text/css">
+		.body{
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+		}
+		
 		.header {
 			background-image: url('cool-background.png');
 			width: 40%;
