@@ -17,3 +17,6 @@ kaoshacktober gaskan
 #hacktoberfest indo
 bang mau baju hacktober dong
 hektober rill cuy
+hacktoberkeun ang
+tonghilap
+dingin wae boys
