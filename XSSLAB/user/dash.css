@@ -1,0 +1,75 @@
+.navigasi {
+    z-index: 1;
+    position: relative;
+}
+
+.navigasi .nav-link {
+    margin-left: 20px;
+}
+
+.navigasi .menu .nav-item .submit:hover {
+    color: #ACACAC !important;
+}
+
+.navigasi .btn {
+    font-weight: 600;
+    border-radius: 20px;
+    background-color: rgb(37, 106, 233);
+
+}
+
+.navigasi .btn:hover {
+    background-color:  rgb(106, 156, 250) !important;
+}
+
+.jumbotron {
+    background-color: #222d32;
+    background-size: cover;
+    height: 420px;
+    text-align: center;
+    position: relative;
+    margin-top: -60px;
+}
+
+.jumbotron img {
+    width: 150px;
+    height: 180px;
+    margin-bottom: 30px;
+}
+
+.jumbotron .info {
+    box-shadow: 0 3px 10px rgba(233, 233, 233, 0.5);
+    border-radius: 12px;
+    background-color: white;
+    padding-top: 15px;
+}
+
+.jumbotron h3 {
+    color: black;
+}
+
+.jumbotron p {
+    color: black;
+}
+
+.judul h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.chall .row {
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}

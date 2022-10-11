@@ -1,0 +1,55 @@
+body {
+    background-image: url(image/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.atas {
+    margin-top: 5px;
+}
+
+.atas .menu .nav-item a:hover {
+    color: #ACACAC;
+}
+
+.tengah {
+    margin-top: 15%;
+    margin-bottom: 15%;
+    transform: translateY(-15%);
+}
+
+.tengah h1 {
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+.tengah p {
+    font-size: 20px;
+    color: white;
+    padding: 5px 0;
+}
+
+.tengah p span {
+    font-weight: 700;
+}
+
+.tengah a {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    background-color: rgb(37, 106, 233);
+    font-size: 20px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+}
+
+
+.tengah a:hover {
+    background-color:  rgb(106, 156, 250);
+}
+
+
+.footer p {
+    font-size: 15px;
+    color: #ACACAC;;
+}
