@@ -1,0 +1,203 @@
+*{margin:0px; padding:0px}
+/**--Awal index--**/
+body{
+	font-family:sans-serif;
+	font-size:13px;
+	color:#4D4D4D;
+}
+#container{
+	width:99%;
+	margin:0px auto;
+	border:2px solid #919191;
+	background-color:#C4C4C4;
+}
+#header{
+	width:100%;
+	height:100px;
+	background-color:#C4C4C4;
+}
+#logo-perpustakaan-container{
+	float:left;
+	width:6%;
+	height:80%;
+	padding:8px;
+}
+#logo-perpustakaan{
+	width:80px;
+	height:80px;
+	border:2px solid #FFFFFF;
+}
+#nama-alamat-perpustakaan-container{
+	float:left;
+	width:90%;
+	padding:10px;
+}
+.nama-alamat-perpustakaan{
+	float:left;
+	width:100%;
+	padding:6px;
+	text-align:center;
+}
+#header2{
+	width:100%;
+	height:32px;
+	background-color:#5C3701;
+	color:#FFFFFF;
+}
+#nama-user{
+	float:left;
+	color:#EEEEEE;
+	padding:6px;
+}
+#sidebar{
+	float:left;
+	width:15.8%;
+}
+#sidebar ul{
+	list-style:none;
+}
+#sidebar a:link, #sidebar a:visited{
+	color:black;
+	text-decoration:none;
+	display:block;
+	padding:6px;
+}
+#sidebar a:hover{
+	background-color:#919191;
+}
+.label-navigasi{
+	background-color:#5C3701;
+	padding:6px;
+	color:white;
+	font-weight:bold;
+}
+#content-container{
+	float:left;
+	width:83.8%;
+	background-color:#FFFFFF;
+}
+#footer{
+	width:99.4%;
+	height:20px;
+	clear:both;
+	text-align:center;
+	padding:4px;
+	background-color:#5C3701;
+	color:#FFFFFF;
+}
+/**--Akhir index.php--**/
+
+/**--Awal pages--**/
+#label-page{
+	margin-top:6px;
+	margin-bottom:6px;
+	margin-left:6px;
+	border:2px solid #C4C4C4;
+	padding:4px;
+	width:97.9%;
+}
+#content{
+	float:left;
+	width:96.8%;
+	min-height:454px;
+	background-color:#FFFFFF;
+	margin-left:6px;
+	border:2px solid #C4C4C4;
+	padding:10px;
+	margin-bottom:6px;
+}
+#beranda-judul{
+	text-align:center;
+}
+#beranda-konten{
+	text-align:center;
+	padding-top:140px;
+	color:red;
+}
+.tombol{
+	border-radius:4px;
+	font-size:12px;
+	text-decoration:none;
+	background-color:#F1F1F1;
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:5px;
+	padding-right:5px;
+	border:1px solid #01597E;
+	color:black;
+}
+#tombol-tambah-container{
+	margin-bottom:10px;
+}
+#tombol-tambah-container a:hover{
+	background-color:#C4C4C4;
+}
+#tabel-tampil{
+	border:1px solid #C4C4C4;
+	width:100%;
+}
+#tabel-tampil tr:nth-child(odd){
+	background-color:#F1F1F1;
+}
+#tabel-tampil tr th{
+	background-color:#5C3701;
+	color:#FFFFFF;
+	padding:4px;
+	text-align:left;
+}
+#tabel-tampil td{
+	padding:4px;
+}
+#label-tampil-no{
+	width:30px;
+}
+#label-opsi{
+	width:158px;
+	font-weight:bold;
+}
+#label-opsi2{
+	width:82px;
+	font-weight:bold;
+}
+#label-opsi3{
+	width:166px;
+	font-weight:bold;
+}
+.tombol-opsi-container {
+	float:left;
+}
+.tombol-opsi-container a:hover{
+	background-color:#C4C4C4;
+}
+#tabel-input{
+	width:100%;
+}
+.label-formulir{
+	width:12%;
+	height:36px;
+	margin:20px;
+}
+.isian-formulir{
+	width:80%;
+	padding:4px;
+	width:99.8%;
+}
+.isian-formulir2{
+	width:78%;
+	padding:4px;
+	width:20%;
+}
+.label-formulir2{
+	width:100%;
+	height:26px;
+	margin:20px;
+	padding-left:16px;
+	font-weight:bold;
+}
+.isian-formulir-border{
+	border:1px solid #C4C4C4;
+}
+.warna-formulir-disabled{
+	background-color:#F1F1F1;
+}
+/**--Akhir pages--**/
