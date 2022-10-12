@@ -1,0 +1,352 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. 1600px
+2. 1440px
+3. 1280px
+4. 1199px
+5. 1024px
+6. 991px
+7. 959px
+8. 880px
+9. 768px
+10. 767px
+11. 539px
+12. 479px
+13. 400px
+
+******************************/
+
+/************
+1. 1600px
+************/
+
+@media only screen and (max-width: 1600px)
+{
+	
+}
+
+/************
+2. 1440px
+************/
+
+@media only screen and (max-width: 1440px)
+{
+	
+}
+
+/************
+3. 1380px
+************/
+
+@media only screen and (max-width: 1380px)
+{
+	
+}
+
+/************
+3. 1280px
+************/
+
+@media only screen and (max-width: 1280px)
+{
+	
+}
+
+/************
+4. 1199px
+************/
+
+@media only screen and (max-width: 1199px)
+{
+	.about_col_left
+	{
+		padding-right: 15px;
+	}
+	.about_col_right
+	{
+		padding-left: 15px;
+	}
+	.about_col_middle
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.feature_content
+	{
+		padding-right: 0;
+	}
+	.feature_video
+	{
+		width: 100%;
+		left: auto;
+	}
+	.team_image
+	{
+		width: 160px;
+		height: 140px;
+	}
+	.milestone:not(:last-child)::after
+	{
+		display: none;
+	}
+	.partners_slider_container
+	{
+		width: calc(100% + 160px);
+		left: -80px;
+	}
+}
+
+/************
+4. 1100px
+************/
+
+@media only screen and (max-width: 1100px)
+{
+	
+}
+
+/************
+5. 1024px
+************/
+
+@media only screen and (max-width: 1024px)
+{
+	
+}
+
+/************
+6. 991px
+************/
+
+@media only screen and (max-width: 991px)
+{
+	.main_nav,
+	.search_button
+	{
+		display: none;
+	}
+	.top_bar_contact_list li i,
+	.top_bar_contact_list li > div,
+	.login_button a
+	{
+		font-size: 12px;
+	}
+	.login_button
+	{
+		width: 140px;
+	}
+	.hamburger
+	{
+		display: inline-block;
+		margin-left: 33px;
+	}
+	.contact_form
+	{
+		padding-right: 0;
+	}
+	.contact_info
+	{
+		padding-left: 0;
+		margin-top: 80px;
+	}
+	.newsletter_container
+	{
+		height: auto;
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.newsletter_form_container
+	{
+		margin-top: 19px;
+	}
+	.footer_col:not(:last-child)
+	{
+		margin-bottom: 60px;
+	}
+	.footer_contact,
+	.footer_links
+	{
+		padding-left: 0;
+	}
+	.footer_links ul
+	{
+		columns: 1;
+		-webkit-columns: 1;
+		-moz-columns: 1;
+	}
+	.footer_mobile
+	{
+		float: none;
+	}
+	.footer_logo_container
+	{
+		margin-top: 0;
+	}
+	.copyright
+	{
+	    height: auto;
+	    padding-top: 30px;
+	    padding-bottom: 30px;
+	}
+	.cr_list
+	{
+		margin-top: 30px;
+	}
+	.cr_list li:not(:last-child)
+	{
+		margin-right: 20px;
+	}
+	.copyright div,
+	.cr_list li a
+	{
+		font-size: 13px;
+	}
+}
+
+/************
+7. 959px
+************/
+
+@media only screen and (max-width: 959px)
+{
+	
+}
+
+/************
+8. 880px
+************/
+
+@media only screen and (max-width: 880px)
+{
+	
+}
+
+/************
+9. 768px
+************/
+
+@media only screen and (max-width: 768px)
+{
+	
+}
+
+/************
+10. 767px
+************/
+
+@media only screen and (max-width: 767px)
+{
+	.top_bar
+	{
+		display: none;
+	}
+	.home
+	{
+		height: 140px;
+	}
+	.header.scrolled
+	{
+		top: 0px;
+	}
+	.blog_post
+	{
+		width: 100%;
+	}
+}
+
+/************
+11. 575px
+************/
+
+@media only screen and (max-width: 575px)
+{
+	h2
+	{
+		font-size: 24px;
+	}
+	p
+	{
+		font-size: 13px;
+	}
+	.menu
+	{
+		width: 100%;
+		right: -100%;
+	}
+	.dropdown_item_select,
+	.home_search_button
+	{
+		font-size: 12px;
+	}
+	.comments_list li ul
+	{
+		padding-left: 30px;
+	}
+	.comment_notify span,
+	.form_title
+	{
+		font-size: 14px;
+	}
+	.google_map
+	{
+		height: 300px;
+	}
+	.contact_info_title
+	{
+		font-size: 24px;
+	}
+	.contact_info_location_title
+	{
+		font-size: 16px;
+	}
+	.input_col:not(:last-child)
+	{
+		margin-bottom: 30px;
+	}
+	.newsletter_form_container
+	{
+		width: 100%;
+		padding-left: 0;
+	}
+}
+
+/************
+11. 539px
+************/
+
+@media only screen and (max-width: 539px)
+{
+	
+}
+
+/************
+12. 480px
+************/
+
+@media only screen and (max-width: 480px)
+{
+	
+}
+
+/************
+13. 479px
+************/
+
+@media only screen and (max-width: 479px)
+{
+	
+}
+
+/************
+14. 400px
+************/
+
+@media only screen and (max-width: 400px)
+{
+	
+}
