@@ -1,0 +1,9 @@
+<?php
+
+$singular = "moves";
+
+echo <<<'LOVESONG'
+Something in the way she $singular
+Attracts me like no other lover
+Something in the way she woos me
+LOVESONG;
