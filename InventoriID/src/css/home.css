@@ -1,0 +1,76 @@
+body {
+  background: rgb(255, 255, 255);
+}
+  
+.text-small {
+  font-size: 0.9rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+.form-control {
+  background: #212529;
+  border-color: #545454;
+}
+
+.form-control:focus {
+  background: #212529;
+}
+
+footer {
+  background: #0080ff;
+}
+
+body, html {
+  height: 100%;
+}
+
+/* light #fefffd */
+/* dark #040403 */
+.bg-main {
+  background: #ff6600;
+}
+
+/* .img-main {
+  max-width: 20rem;
+} */
+
+.text-link:hover, .text-link:active {
+  color: #fefffdcc !important;
+  text-decoration: underline;
+}
+
+.fs-mobile {
+  font-size: 1rem !important;
+}
+
+
+@media (min-width: 576px) {
+  .img-main {
+    display: block;
+    max-width: 20rem;
+  }
+}
+
+@media (min-width: 912px) {
+  .img-main {
+    display: block;
+    max-width: 35rem;
+  }
+
+  .text-small {
+    font-size: 1.3rem;
+  }
+
+  .fs-4 {
+    font-size: 2.5rem !important;
+  }
+}
